@@ -1,0 +1,230 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    /*justify-content: center;*/
+}
+/* navigation bar list styling */
+#navbar ul{
+    display: flex;
+
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+
+}
+#navbar ul li{
+    
+    list-style: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: blueviolet;
+    
+}
+/*styling the section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    height: 600px;
+    opacity: 0.9;
+    
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    font-size: 1.5rem;
+}
+/* services section*/
+#services{
+    margin: 20px;
+    display: flex;
+    
+}
+#services .box{
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+
+
+}
+#services .box2{
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+
+
+}
+#services .box3{
+    border: 2px solid green;
+    border-radius: 20px;
+    width: 350px;
+    margin: 10px;
+    padding: 30px;
+
+
+}
+
+#services .box img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+
+}
+#services .box2 img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+    /*width: 290px;*/
+
+}
+#services .box3 img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+    width: 290px;
+
+}
+/*client section */
+#client-section{
+    position: relative;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+#client-item{
+    padding: 34px;
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg3.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+    
+}
+/* contact us section */
+#contact{
+    margin-top: 90px;
+    position: relative;
+    height: 550px;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    background: url('../contact us.jpg')no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#contact-box label{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+#contact-box form {
+    width: 40%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* utility classes*/
+.h-primary{
+    font-size: 4rem;
+    padding: 15px;
+
+}
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 15px;
+
+}
+.btn{
+    padding: 5px 15px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 18px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+
+}
+.center{
+    text-align: center;
+}
+

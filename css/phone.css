@@ -1,0 +1,86 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+/* Home section */
+#home{
+    height: 350px;
+    margin-bottom: 40px;
+    /*margin-left: 0px;*/
+}
+#home p{
+    font-size: 8px;
+    width: 100%;
+
+}
+#home::before {
+    height: 400px;
+    width: 100%;
+    /*margin-left: 0px;*/
+}
+/* service section */
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#services .box2{
+    padding: 14px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#services .box3{
+    padding: 14px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#services .box img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+    width: 70%;
+
+}
+#services .box2 img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+    width: 70%;
+
+}
+#services .box3 img{
+    height: 200px;
+    display: block;  /*  margin auto is done only when the display block is there */
+    margin: auto;
+    padding-top: 15px;
+    width: 70%;
+
+}
+
+/* client section */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+
+}
+/* contact us section */
+/* footer */
+/* utility section */
+.h-primary{
+    font-size: 25px;
+}
+.btn{
+    font-size: 10px;
+    width: 100px;
+}
